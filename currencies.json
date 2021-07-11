@@ -804,11 +804,6 @@
         "name": "East Caribbean dollar",
         "flag": "AI"
     },
-    "XDR":
-    {
-        "name": "Special drawing rights",
-        "flag": "IMF"
-    },
     "XOF":
     {
         "name": "CFA Franc BCEAO",
@@ -858,5 +853,40 @@
     {
         "name": "Zimbabwe dollar",
         "flag": "ZW"
+    },
+    "DASH":
+    {
+        "name": "DASH cryptocurrency",
+        "flag": "DASH"
+    },
+    "BTC":
+    {
+        "name": "Bitcoin",
+        "flag": "BTC"
+    },
+    "DSH":
+    {
+        "name": "Dash cryptocurrency",
+        "flag": "DASH"
+    },
+    "LTC":
+    {
+        "name": "Litecoin",
+        "flag": "LTC"
+    },
+    "ETH":
+    {
+        "name": "Ethereum",
+        "flag": "ETH"
+    },
+    "BCH":
+    {
+        "name": "Bitcoin Cash",
+        "flag": "BTC"
+    },
+    "XRP":
+    {
+        "name": "XRP cryptocurrency",
+        "flag": "XRP"
     }
 }

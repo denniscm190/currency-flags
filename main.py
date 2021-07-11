@@ -44,23 +44,35 @@ def get_flags():
 
 def check_all_flags():
     """
-    Check if there are flags for every currency
+    Check if there are flags for every currency in currencies.json
+    and in currency-paris.json
     :return:
     """
 
+    flags = os.listdir('src/')  # Get flags filenames
+    flag_filenames_without_extension = []
+    for flag in flags:
+        flag_filenames_without_extension.append(flag.split('.')[0])
+
+    symbols_missed = set()
     with open('currencies.json') as f:
         currencies = json.load(f)
-        flags_in_json = []
         for currency in currencies.keys():
-            flags_in_json.append(currencies[currency]['flag'])
+            if currencies[currency]['flag'] not in flag_filenames_without_extension:
+                symbols_missed.add(currency)
 
-        flags = os.listdir('src/')
-        for flag in flags:
-            if flag.split('.')[0] not in flags_in_json:
-                print(flag)
+        with open('currency-pairs.json') as f:
+            currency_pairs = json.load(f)
+            for pair in currency_pairs:
+                symbols = pair.split('/')
+                for symbol in symbols:
+                    if symbol not in currencies.keys():
+                        symbols_missed.add(symbol)
+
+            print(symbols_missed)
 
 
 if __name__ == '__main__':
-    get_currency_symbols()
-    get_flags()
+    # get_currency_symbols()
+    # get_flags()
     check_all_flags()
