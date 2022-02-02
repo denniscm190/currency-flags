@@ -779,26 +779,6 @@
         "name": "Vreneli 20F",
         "flag": "CH"
     },
-    "XAG":
-    {
-        "name": "Silver (one troy ounce)",
-        "flag": "XAG"
-    },
-    "XAGK":
-    {
-        "name": "Silver (kg)",
-        "flag": "XAG"
-    },
-    "XAU":
-    {
-        "name": "Gold (one troy ounce)",
-        "flag": "XAU"
-    },
-    "XAUK":
-    {
-        "name": "Gold (kg)",
-        "flag": "XAU"
-    },
     "XCD":
     {
         "name": "East Caribbean dollar",
@@ -809,30 +789,10 @@
         "name": "CFA Franc BCEAO",
         "flag": "SN"
     },
-    "XPD":
-    {
-        "name": "Palladium (one troy ounce)",
-        "flag": "XPD"
-    },
-    "XPDK":
-    {
-        "name": "Palladium (kg)",
-        "flag": "XPD"
-    },
     "XPF":
     {
         "name": "CFP franc",
         "flag": "PF"
-    },
-    "XPT":
-    {
-        "name": "Platinum (one troy ounce)",
-        "flag": "XPT"
-    },
-    "XPTK":
-    {
-        "name": "Platinum (kg)",
-        "flag": "XPT"
     },
     "YER":
     {
@@ -853,40 +813,5 @@
     {
         "name": "Zimbabwe dollar",
         "flag": "ZW"
-    },
-    "DASH":
-    {
-        "name": "DASH cryptocurrency",
-        "flag": "DASH"
-    },
-    "BTC":
-    {
-        "name": "Bitcoin",
-        "flag": "BTC"
-    },
-    "DSH":
-    {
-        "name": "Dash cryptocurrency",
-        "flag": "DASH"
-    },
-    "LTC":
-    {
-        "name": "Litecoin",
-        "flag": "LTC"
-    },
-    "ETH":
-    {
-        "name": "Ethereum",
-        "flag": "ETH"
-    },
-    "BCH":
-    {
-        "name": "Bitcoin Cash",
-        "flag": "BTC"
-    },
-    "XRP":
-    {
-        "name": "XRP cryptocurrency",
-        "flag": "XRP"
     }
 }
